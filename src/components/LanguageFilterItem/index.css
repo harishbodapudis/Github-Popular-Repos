@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.language-btn {
+  list-style-type: none;
+}
+
+.lang-btn {
+  border: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.on-active {
+  border: 1px solid #0284c7;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #0284c7;
+}

@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.Main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  font-family: lobster;
+}
+
+.data-container {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.loader-container {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view {
+  height: 60vh;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (width < 768px) {
+  .data-container {
+    width: 85%;
+  }
+}

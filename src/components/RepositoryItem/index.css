@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.lang-logo {
+  height: 50px;
+  width: 50px;
+}
+.frame-work-box {
+  list-style-type: none;
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 30%;
+}
+.frame-work-name {
+  color: #e73959;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.stars-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.stars-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.forks-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.forks-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.open-issues-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.issues-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+@media (width < 768px) {
+  .frame-work-name {
+    font-size: 12px;
+  }
+}
