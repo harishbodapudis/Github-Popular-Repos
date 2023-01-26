@@ -69,12 +69,6 @@ class GithubPopularRepos extends Component {
     )
   }
 
-  loaderCard = () => (
-    <div className="loader-container" data-testid="loader">
-      <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
-    </div>
-  )
-
   fetchFailedCard = () => (
     <div className="info-card">
       <img
@@ -83,6 +77,12 @@ class GithubPopularRepos extends Component {
         className="failure-view"
       />
       <h1>Something Went Wrong</h1>
+    </div>
+  )
+
+  loaderCard = () => (
+    <div className="loader-container" data-testid="loader">
+      <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
     </div>
   )
 
